@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js --exec babel-node --presets es2015,stage-2",
+    "start": "nodemon index.js",
     "eslint": "eslint ."
   },
   "author": "",
@@ -21,6 +21,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.9.0",
-    "express-generator": "^4.14.1"
+    "express-generator": "^4.14.1",
+    "nodemon": "^1.11.0"
   }
 }
